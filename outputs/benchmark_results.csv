@@ -1,0 +1,4 @@
+Model,MAE (Wh),RMSE (Wh),R2 Score,MAPE (%)
+Ridge Regression (Baseline),28.26,60.99,0.5511,26.9
+Random Forest,74.6,111.93,-0.5117,86.0
+HistGradientBoosting (SOTA),40.07,67.35,0.4527,43.73
