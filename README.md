@@ -62,24 +62,3 @@ python -m streamlit run app.py
 *Truy cập trình duyệt tại địa chỉ `http://localhost:8501` để trải nghiệm giao diện dự đoán tương tác.*
 
 ---
-
-## 📁 6. Cấu trúc thư mục dự án
-```
-CuoiKy_AI/
-│
-├── data/
-│   └── energydata_complete.csv     # Dữ liệu gốc UCI (19,735 dòng)
-├── outputs/
-│   ├── benchmark_results.csv       # Bảng số liệu MAE, RMSE, R2
-│   ├── best_energy_model.pkl       # Trọng số mô hình tối ưu đã lưu
-│   ├── actual_vs_predicted.png     # Đồ thị Actual vs Predicted
-│   ├── feature_importance.png      # Đồ thị Top đặc trưng quan trọng
-│   └── metrics_comparison.png      # Biểu đồ cột so sánh mô hình
-│
-├── app.py                          # Giao diện Web Streamlit Dashboard
-├── train.py                        # Pipeline huấn luyện & xuất kết quả
-├── predict.py                      # Module suy luận dòng lệnh
-├── requirements.txt                # Danh sách thư viện phụ thuộc
-├── .gitignore                      # Loại bỏ file cache rác
-└── README.md                       # Tài liệu thuyết minh dự án
-```
